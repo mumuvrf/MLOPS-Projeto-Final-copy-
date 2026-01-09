@@ -1,0 +1,31 @@
+# Terraform
+*.tfstate
+*.tfstate.*
+.terraform/
+.terraform.lock.hcl
+terraform.tfvars
+
+# python
+__pycache__/
+*.py[cod]
+*.so
+
+# environments
+.env
+.venv/
+env/
+venv/
+
+# IDE
+.vscode/
+.idea/
+
+# Data
+data/raw/
+data/processed/
+
+# Models
+# models/*.pkl
+
+# Keeps MLFlow local
+src/mlruns
